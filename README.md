@@ -3,7 +3,7 @@
 Official implementation of [Progressively Generating Better Initial Guesses Towards Next Stages for High-Quality
 Human Motion Prediction](assets/07627.pdf) (CVPR 2022 paper)
 
-PDF Sup Demp (Coming soon) 
+PDF Sup Demo (Coming soon) 
 
 [comment]: <> ([PDF]&#40;&#41; [Supp]&#40;&#41; [Demo]&#40;&#41;)
 
