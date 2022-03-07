@@ -20,6 +20,10 @@ PDF Sup Demo (Coming soon)
 ## Abstract
 ######  &nbsp;&nbsp;&nbsp;  This paper presents a high-quality human motion prediction method that accurately predicts future human poses given observed ones. Our method is mainly based on the observation that a good initial guess of the future pose sequence, such as the mean of future poses, is very helpful to improve the forecasting accuracy. This motivates us to design a novel two-stage prediction strategy, including an init-prediction network that just computes a good initial guess and a formal-prediction network that takes both the historical and initial poses to predict the target pose sequence. We extend this idea further and design a multi-stage prediction framework with each stage predicting initial guess for the next stage, which rewards us with significant performance gain. To fulfill the prediction task at each stage, we propose a network comprising Spatial Dense Graph Convolutional Networks (S-DGCN) and Temporal Dense Graph Convolutional Networks (T-DGCN). Sequentially executing the two networks can extract spatiotemporal features over the global receptive field of the whole pose sequence effectively. All the above design choices cooperating together make our method outperform previous approaches by a large margin (6\%-7\% on Human3.6M, 5\%-10\% on CMU-MoCap, 13\%-16\% on 3DPW).
 
+## Overview
+
+![PGBIG](src/overview.png)
+
 ## Dependencies
 
 * Pytorch 1.8.0+cu11
