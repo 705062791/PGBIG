@@ -13,7 +13,7 @@ PDF Sup Demo (Coming soon)
 
 1. [Tiezheng Ma](https://github.com/705062791), School of Computer Science and Engineering, South China University of Technology, China, [mtz705062791@gmail.com](mailto:mtz705062791@gmail.com)
 2. [Yongwei Nie](https://nieyongwei.net), School of Computer Science and Engineering, South China University of Technology, China, [nieyongwei@scut.edu.cn](mailto:nieyongwei@scut.edu.cn)
-3. [Chengjiang Long](http://www.chengjianglong.com), JD Finance America Corporation, USA, [cjfykx@gmail.com](mailto:cjfykx@gmail.com)
+3. [Chengjiang Long](http://www.chengjianglong.com), Meta Reality Labs, USA, [clong1@fb.com](mailto:clong1@fb.com)
 4. [Qing Zhang](http://zhangqing-home.net/), School of Computer Science and Engineering, Sun Yat-sen University, China, [zhangqing.whu.cs@gmail.com](mailto:zhangqing.whu.cs@gmail.com)
 5. [Guiqing Li](http://www2.scut.edu.cn/cs/2017/0629/c22284a328097/page.htm), School of Computer Science and Engineering, South China University of Technology, China, [ligq@scut.edu.cn](mailto:ligq@scut.edu.cn)
 
@@ -106,7 +106,7 @@ cuda:0
 -1
 `
 
-Train on 3DPW:
++ Train on 3DPW:
 
 `
 --data_dir
