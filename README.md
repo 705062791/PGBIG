@@ -13,11 +13,13 @@ Human Motion Prediction](assets/07627.pdf) (CVPR 2022 paper)
 
 1. [Tiezheng Ma](https://github.com/705062791), School of Computer Science and Engineering, South China University of Technology, China, [mtz705062791@gmail.com](mailto:mtz705062791@gmail.com)
 2. [Yongwei Nie](https://nieyongwei.net), School of Computer Science and Engineering, South China University of Technology, China, [nieyongwei@scut.edu.cn](mailto:nieyongwei@scut.edu.cn)
-3. [Chengjiang Long](http://www.chengjianglong.com), [cjfykx@gmail,com](mailto:cjfykx@gmail,com)
+3. [Chengjiang Long](http://www.chengjianglong.com), Meta Reality Labs, USA, [clong1@fb.com](mailto:clong1@fb.com)
+
+[comment]: <> (3. [Chengjiang Long]&#40;http://www.chengjianglong.com&#41;, [cjfykx@gmail,com]&#40;mailto:cjfykx@gmail,com&#41;)
 4. [Qing Zhang](http://zhangqing-home.net/), School of Computer Science and Engineering, Sun Yat-sen University, China, [zhangqing.whu.cs@gmail.com](mailto:zhangqing.whu.cs@gmail.com)
 5. [Guiqing Li](http://www2.scut.edu.cn/cs/2017/0629/c22284a328097/page.htm), School of Computer Science and Engineering, South China University of Technology, China, [ligq@scut.edu.cn](mailto:ligq@scut.edu.cn)
 
-[comment]: <> (3. [Chengjiang Long]&#40;http://www.chengjianglong.com&#41;, Meta Reality Labs, USA, [clong1@fb.com]&#40;mailto:clong1@fb.com&#41;)
+
 ## Abstract
 ######  &nbsp;&nbsp;&nbsp;  This paper presents a high-quality human motion prediction method that accurately predicts future human poses given observed ones. Our method is mainly based on the observation that a good initial guess of the future pose sequence, such as the mean of future poses, is very helpful to improve the forecasting accuracy. This motivates us to design a novel two-stage prediction strategy, including an init-prediction network that just computes a good initial guess and a formal-prediction network that takes both the historical and initial poses to predict the target pose sequence. We extend this idea further and design a multi-stage prediction framework with each stage predicting initial guess for the next stage, which rewards us with significant performance gain. To fulfill the prediction task at each stage, we propose a network comprising Spatial Dense Graph Convolutional Networks (S-DGCN) and Temporal Dense Graph Convolutional Networks (T-DGCN). Sequentially executing the two networks can extract spatiotemporal features over the global receptive field of the whole pose sequence effectively. All the above design choices cooperating together make our method outperform previous approaches by a large margin (6\%-7\% on Human3.6M, 5\%-10\% on CMU-MoCap, 13\%-16\% on 3DPW).
 
