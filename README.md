@@ -1,4 +1,4 @@
-# Progressively-Generating-Better-Initial-Guesses-Towards-Next-Stages-forHigh-Quality-Human-Motion-Pre
+# Progressively-Generating-Better-Initial-Guesses-Towards-Next-Stages-forHigh-Quality-Human-Motion-Prediction
 
 Official implementation of [Progressively Generating Better Initial Guesses Towards Next Stages for High-Quality
 Human Motion Prediction](assets/07627.pdf) (CVPR 2022 paper)
