@@ -158,7 +158,7 @@ The test result will be saved in `./checkpoint/`.
 If you think our work is helpful to you, please cite our paper.
 
 ```
-Coming soon
+Ma T, Nie Y, Long C, et al. Progressively Generating Better Initial Guesses Towards Next Stages for High-Quality Human Motion Prediction[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022: 6437-6446.
 
 ```
 
